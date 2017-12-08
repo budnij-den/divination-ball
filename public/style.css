@@ -1,0 +1,15 @@
+body{
+	margin:3em auto;
+	width:66%;
+	font-family:verdana;
+}
+
+.str{
+	font-size:120%;
+	font-weight:600;
+	padding-bottom:.8em;
+}
+
+input{
+	font-size:120%;
+}
