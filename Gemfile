@@ -7,4 +7,4 @@ gem "activerecord"
 gem "sinatra-contrib"
 gem 'rake'
 
-
+ruby '2.3.4'
