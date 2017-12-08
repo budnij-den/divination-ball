@@ -13,7 +13,7 @@
 <div class="str">ВНЕМЛИ ОРАКУЛУ!</div>
 <div class="str">Сформулируй вопрос, вслух или мысленно, и нажми КНОПКУ</div>
 <a href="/answer">
-	<input type="button" value="узнать">
+	<input type="button" value="узнать" class="btn btn-primary btn-lg">
 </a>
 
 <div style="height: 2em;">
@@ -21,9 +21,11 @@
 </div>
 
 <% if yield%>
-<div class="btn btn-success btn-lg" style="width: 90%;" disabled>
-  <%= yield%>
-</div>
+  <a href="/">
+    <button class="btn btn-success btn-lg" style="">
+      <%= yield%>
+    </button>
+  </a>
 <% end %>
 
 </body>
