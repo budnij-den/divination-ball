@@ -1,9 +1,9 @@
 <html>
-<title>11</title>
+<title>cassandra</title>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="/bootstrap.css">
+<link rel="stylesheet" href="/style.css">
 <script src="/script/jquery-3.2.1.js"></script>
 <script src="/script/script.js"></script>
 </head>
@@ -16,13 +16,15 @@
 	<input type="button" value="узнать">
 </a>
 
-<div>
+<div style="height: 2em;">
   
 </div>
 
-<div class="btn btn-success">
+<% if yield%>
+<div class="success" style="width: 90%;">
   <%= yield%>
 </div>
+<% end %>
 
 </body>
 </html>
