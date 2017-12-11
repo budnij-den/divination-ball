@@ -1,0 +1,11 @@
+development:
+  adapter: "sqlite3",
+  host: "localhost",
+  database: "shar_dev"
+
+production:
+  adapter: "postgresql",
+  host: "localhost",
+  username: <%= ENV["PG_USER"]%>,
+  password: <%= ENV["PG_PASS"]%>,
+  database: "DATABASE_URL"
