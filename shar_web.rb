@@ -42,3 +42,7 @@ end
 get '/answer' do
   erb "#{random_answer}"
 end
+
+get '/anton' do
+  erb '<h2>Антон Суволокин классный парень!</h2>'
+end
